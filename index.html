@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Portfolio</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./index.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+
+<!-- landing page -->
+<!-- about me experiences and future plans -->
+<!-- gallery/project samples -->
+<!-- contact -->
+
+<body class="text-center">
+<!-- start of Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light headingColor">
+	  <div class="container-fluid">
+	  	<a href="#landing">
+	  	<img src="https://avatars.githubusercontent.com/u/127068099?s=400&v=4" alt="" class="profileAvatar">
+	  	</a>	    
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+	        <li class="nav-item">
+	          <a class="nav-link" href="#about">About Me</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#projects">Projects</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#tools">Tools</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#contact">Contact</a>
+	        </li>	      
+	      </ul>	    
+	    </div>
+	  </div>
+	</nav>
+<!-- end of Navbar -->
+
+	<main>
+	<!-- Landing section -->
+		<section id="landing" class="d-flex justify-content-center subColor align-items-center">
+		<div class="d-flex justify-content-start align-items-center text-start sevetyFiveVh gap-3">	
+			<div class="ms-5 my-3 p-3 overlay textColor">				
+				<h2>Hi there!</h2>
+				<h2 class="line-1 anim-typewriter">Am Stanley</h2>
+				<h2 class="line-1 anim-typewriter">Balmores</h2>
+				<h3>You can call me Stan!</h3>
+				<h5>A Full-Stack Developer in Pointwest Innovations Corporation</h5>
+				<button type="button" class="btn effects floatRight" data-bs-toggle="modal" data-bs-target="#contactStan">
+				  Contact Me
+				</button>
+			</div>
+			<img src="images/stan.jpg" class="fiftyVh rounded-circle ps-2 pe-4 m-2">	
+		</div>	
+		</section>
+	<!-- end of Landing -->
+	<!-- about section -->
+		<section id="about" class="subColor">
+			<div class="headingColor">
+			  <h2 class="py-3 m-0">About Me</h2>
+			</div>
+			<div class="row text-center maxWid container-fluid">
+				<div class="col-12 col-md-6 order-2 order-md-1 pt-3 mx-auto my-auto overlay">
+					<p class="textColor">"I am an explorer of life's endless possibilities, a dreamer with my head in the clouds and my feet firmly grounded in reality. Every day, I wake up with a sense of wonder, eager to embrace the opportunities that lie ahead. I believe that life is a grand adventure, and I am determined to make the most of every moment.</p>
+				</div>
+				<div class="col-12 col-md-6 mx-auto my-auto py-3">
+					<img src="./images/me3.jpg" class="image-fluid imageRaduis">
+				</div>
+			</div>
+
+			<div class="row text-center maxWid container-fluid">
+				<div class="col-12 col-md-6 mx-auto my-auto order-1 order-md-2 py-3">
+					<img src="./images/me2.jpg" class="image-fluid imageRaduis">
+				</div>
+				<div class="col-12 col-md-6 order-2 order-md-1 pt-3 mx-auto my-auto overlay">
+					<p class="textColor">I am a firm believer in the power of kindness and empathy. In a world that can sometimes seem divided and chaotic, I strive to be a source of positivity and support for those around me. I find fulfillment in connecting with people, hearing their stories, and learning from their experiences. Through these connections, I've come to understand that our differences are what make us beautiful, and our shared humanity is what unites us.</p>					
+				</div>
+			</div>
+
+			<div class="row text-center maxWid container-fluid pb-3">
+				<div class="col-12 col-md-6 order-2 order-md-1 pt-3 mx-auto my-auto overlay">
+					<p class="textColor">My journey through life is a continuous learning process, filled with both challenges and triumphs. I am dedicated to personal growth, always seeking to expand my horizons, and I believe that we can all make a difference, no matter how small, in the lives of others. So, here's to the adventure of life, the beauty of diversity, and the power of kindness – I'm here to embrace it all."</p>
+				</div>
+				<div class="col-12 col-md-6 mx-auto my-auto py-3">
+					<img src="./images/me1.jpg" class="image-fluid imageRaduis">
+				</div>
+			</div>
+		</section>
+	<!-- end of about -->
+	<!-- start of projects -->
+	
+		<section id="projects" class="subColor m-0">
+			<div class="headingColor">
+			  <h2 class="py-3 m-0">Projects</h2>
+			</div>
+			<div id="carouselExampleControls" class="carousel slide p-3" data-bs-ride="carousel">
+			  <div class="carousel-inner">
+			  <!-- Carousel item 1 -->
+			    <div class="carousel-item active">
+<div class="d-flex justify-content-center align-items-center gap-5">
+			      <div class="card cardWidth">
+			        <img src="./images/web.jpg" class="card-img-top" alt="...">
+			        <div class="card-body">
+			          <h5 class="card-title textColor">Website Portfolio</h5>
+			          <p class="card-text fontSize">Create a website to showcase your skills, projects, and resume.</p>    
+			          <p class="card-text fontSize">Include sections like About Me, Portfolio, Resume, and Contact.</p>    
+			        </div>
+			      </div>
+
+			       <div class="card cardWidth">
+			        <img src="./images/list.jpg" class="card-img-top" alt="...">
+			        <div class="card-body">
+			          <h5 class="card-title textColor">To-Do List Application</h5>
+			          <p class="card-text fontSize">Build a web app where users can create, edit, and delete tasks.</p>    
+			          <p class="card-text fontSize">Use HTML, CSS, and JavaScript for the front end, and a simple database (e.g., localStorage) for storing tasks.</p>    
+			        </div>
+			      </div>
+
+			       <div class="card cardWidth">
+			        <img src="./images/weather.jpg" class="card-img-top" alt="...">
+			        <div class="card-body">
+			          <h5 class="card-title textColor">Weather App</h5>
+			          <p class="card-text fontSize">Develop a web app that fetches weather data from an API and displays it.</p>    
+			          <p class="card-text fontSize">Use HTML, CSS, JavaScript, and a weather API like OpenWeatherMap.</p>    
+			        </div>
+			      </div>			      
+</div>			      
+			    </div>
+			  <!-- Carousel item 2 -->
+			    <div class="carousel-item">
+<div class="d-flex justify-content-center align-items-center gap-5">
+			       			         <div class="card cardWidth">
+			        <img src="./images/recipe.jpg" class="card-img-top" alt="...">
+			        <div class="card-body">
+			          <h5 class="card-title textColor">Recipe Book</h5>
+			          <p class="card-text fontSize">Build a web app for storing and displaying recipes.</p>    
+			          <p class="card-text fontSize">Include features like adding, editing, and deleting recipes.</p>    
+			        </div>
+			      </div>
+			      <div class="card cardWidth">
+			        <img src="./images/blog.jpg" class="card-img-top" alt="...">
+			        <div class="card-body">
+			          <h5 class="card-title textColor">Blog Platform</h5>
+			          <p class="card-text fontSize">Create a blog website where users can write, edit, and publish articles.</p>			          
+			          <p class="card-text fontSize">Implement user authentication and a basic CRUD (Create, Read, Update, Delete) system for articles.</p>			          
+			        </div>
+			      </div>
+			       <div class="card cardWidth">
+			        <img src="./images/timer.jpg" class="card-img-top" alt="...">
+			        <div class="card-body">
+			          <h5 class="card-title textColor">Countdown Timer</h5>
+			          <p class="card-text fontSize">Develop a simple countdown timer for events or deadlines.</p>    
+			          <p class="card-text fontSize">Allow users to set the date and time for the countdown.</p>    
+			        </div>
+			      </div>
+</div>
+			    </div>
+			  <!-- Carousel Item 3 -->
+			    <div class="carousel-item">
+<div class="d-flex justify-content-center align-items-center gap-5">
+			        
+			       <div class="card cardWidth">
+			        <img src="./images/chat.jpg" class="card-img-top" alt="...">
+			        <div class="card-body">
+			          <h5 class="card-title textColor">Chat Application</h5>
+			          <p class="card-text fontSize">Build a real-time chat application using technologies like WebSocket or Firebase.</p>		          
+			          <p class="card-text fontSize">Allow users to send messages and join different chat rooms.</p>			          
+			        </div>
+			       </div>
+
+			       <div class="card cardWidth">
+			         <img src="./images/quiz.jpg" class="card-img-top" alt="...">
+			         <div class="card-body">
+			           <h5 class="card-title textColor">Quiz or Trivia Game</h5>
+			           <p class="card-text">Create an interactive quiz or trivia game with multiple-choice questions.</p>			          
+			           <p class="card-text">Keep score and provide feedback on correct/incorrect answers.</p>			          
+			         </div>
+			       </div>
+
+			      <div class="card cardWidth">
+			        <img src="./images/currency.jpg" class="card-img-top" alt="...">
+				        <div class="card-body">
+				          <h5 class="card-title textColor">Currency Converter</h5>
+				          <p class="card-text fontSize">Develop a currency converter web app that converts between different currencies.</p>	          
+				          <p class="card-text fontSize">Fetch exchange rate data from an API and provide a user-friendly interface.</p>			          
+				        </div>
+			       </div>			       
+</div>			        
+			  </div>
+			  </div>
+			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+			    <span class="carousel-control-prev-icon bg-danger" aria-hidden="true"></span>
+			    <span class="visually-hidden">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+			    <span class="carousel-control-next-icon bg-danger" aria-hidden="true"></span>
+			    <span class="visually-hidden">Next</span>
+			  </button>
+			</div>			
+		</section>
+	<!-- end of gallery -->
+<!-- Start of Tools used -->
+
+	<section id="tools" class="subColor">
+		<div class="headingColor">
+			<h2 class="p-3 m-0 textColor">Tools</h2>
+		</div>
+		<div id="core-tools" class="d-flex flex-column justify-content-center align-items-center">
+		    <div id="html">
+		        <img src="images/logo-html5.png"/>
+		        <img src="images/logo-css3.png"/>
+		        <img src="images/logo-javascript.png"/>
+		        <img src="images/logo-react.png"/>	        	        
+		    </div>
+		    <div id="css-js">
+		    	<img src="images/logo-bootstrap.png"/>
+		    	<img src="images/logo-sublime-text-3.png"/>		        
+		        <img src="images/logo-git.png"/>
+		        <img src="images/logo-postman.png"/>	        	        
+		    </div>
+		    <div>
+		    		    	
+		    	
+		    </div>
+		</div>
+		<!-- Core Tools Section End -->	  
+	</section>
+
+<!-- end of tools -->
+
+
+
+<!-- start of contact -->
+		<section id="contact">
+			
+		</section>
+<!-- end of contact -->
+	<section id="contact-section">	
+		<div class="headingColor">
+		  <h2 class="py-3 m-0">Contact Me</h2>
+		</div>
+		<div  class=" subColor p-4">								
+			<div class="row d-flex justify-content-center mt-3">
+			  <div class="col-11 col-md-8 col-lg-8 col-xl-4 contactColor overlay rounded p-3">	
+			      <form id="form-col" class="">
+			        <div class="mb-3">
+			          <label for="name" class="form-label">Name</label>
+			          <input type="text" class="form-control " id="name" placeholder="Enter your name">
+			        </div>
+			        <div class="mb-3">
+			          <label for="email" class="form-label">Email Address</label>
+			          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+			        </div>
+			        <div class="mb-3">
+			          <label for="number" class="form-label">Contact Number</label>
+			          <input type="number" class="form-control" id="contactNumber" placeholder="Enter Contact Number">
+			        </div>
+			        <div class="mb-3">
+			          <label for="message" class="form-label">Message</label>
+			          <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+			        </div>
+			        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modalDiv">
+			          Send Email
+			        </button>								        
+			      </form>
+			  </div>
+			</div>	
+		</div>
+	</section>
+	</main>
+
+
+<!-- start of footer -->
+	<footer class="headingColor">				  
+		    <p class="text-center">Copyright &copyStanleyBalmores 2023 all rights reserved.</p>  
+	</footer>
+<!-- end of Footer -->
+
+
+
+<!-- this is my modal -->
+
+	<div class="modal fade" id="modalDiv" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">Thank you for contacting us!</h5>
+	        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	      </div>
+	      <div class="modal-body text-center">
+	        <p>Message Successfully Sent!</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>        
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="modal fade" id="contactStan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">You can reach me through</h5>
+	        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	      </div>
+	      <div class="modal-body text-center">
+	        <h5>Email: stanley.balmores@pointwest.com.ph</h4>
+	        <h5>Number: +63 (927) 8258924</h4>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>        
+	      </div>
+	    </div>
+	  </div>
+	</div>	
+
+<!-- End of Modal -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

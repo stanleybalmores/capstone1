@@ -1,0 +1,134 @@
+*{
+	font-family: 'Young Serif', serif;
+}
+
+.oneHundredVh{
+	height: 100vh;
+}
+
+.seventyFiveVh{
+	height: 75vh;
+}
+
+.sixtyVh{
+	height: 60vh;
+}
+
+.fiftyVh{
+	height: 50vh;
+}
+
+.twentyFiveVh{
+	height: 40Vh;
+}
+
+.headingColor{
+	background-color: #28DF99;
+}
+
+.contactColor{
+	background-color: #C4D7B2;
+}
+
+.subColor{
+	background-color: #F7FFE5;
+}
+
+.textColor{
+	color: #001524;
+}
+
+.textMainColor{
+	color: #D6CC99;
+}
+
+.maxWid{
+	max-width: 100%;	
+}
+
+ .imageRaduis{
+ 	border: 5px solid black;
+ 	border-radius: 150px;
+ 	height: auto;
+ 	width: 18rem;
+ 	background-color: #445D48;
+ }
+
+ .profileAvatar{
+ 	 width: 50px; 
+ 	 height: 50px;
+ 	 border-radius: 200px;
+ }
+
+.floatRight{
+	float: right;
+	margin-right: 2rem;
+}
+
+ .overlay{
+ 	background-color: rgba(160, 196, 157, 0.3);
+ 	border-radius: 50px;
+ 	box-shadow: 10px 10px 10px #888888;
+ }
+
+
+
+/*card styles*/
+
+.cardWidth{
+	width: 250px;
+	height: auto;
+}
+
+.fontSize{
+	font-size: 0.85rem;
+}
+.imageWidth {
+	width: 250px;
+}
+
+.logoWidth{
+	width: 150px;
+}
+
+.effects {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.effects:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.1); 
+  transition: all 0.3s ease; 
+}
+
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 7em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(18) 1s 1 normal both,
+             blinkTextCursor 500ms steps(18) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 7em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
